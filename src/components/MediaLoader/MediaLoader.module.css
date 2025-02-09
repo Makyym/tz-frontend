@@ -1,0 +1,47 @@
+.div {
+    width: 846px;
+    padding: 4px 27px 25px 31px;
+    background-color: #262641;
+    box-sizing: border-box;
+    display: flex;
+    gap: 30px;
+}
+
+.mediaContainer {
+    width: 134px;
+    height: 134px;
+    & img {
+        width: 134px;
+        height: 134px;
+        object-fit: cover;
+    }
+}
+
+.inputDiv {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 134px;
+    height: 134px;
+    & input {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        cursor: pointer;
+        width: 134px;
+        height: 134px;
+    }
+    & button {
+        background-color: #22233a;
+        width: 134px;
+        height: 134px;
+        border: none;
+    }
+    & svg {
+        width: 53px;
+        height: 53px;
+        color: #7b7aae;
+    }
+}

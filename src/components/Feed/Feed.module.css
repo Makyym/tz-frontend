@@ -1,0 +1,25 @@
+.div {
+    display: flex;
+    height: 23px;
+    gap: 10px;
+    margin-bottom: 26px;
+    & h2 {
+        font-family: var(--font-family);
+        margin: 0;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+    }
+    & svg {
+        width: 23px;
+        height: 23px;
+        filter: drop-shadow(0 0 2px rgba(235, 20, 105, 0.25));
+        color: #840EC5;
+        border: none;
+    }
+}
+
+.wrapper {
+    margin: 20px;
+}

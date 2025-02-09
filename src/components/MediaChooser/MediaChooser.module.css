@@ -1,0 +1,37 @@
+.div {
+    position: relative;
+    z-index: 999;
+}
+
+.list {
+    list-style-type: none;
+    position: absolute;
+    border-radius: 8px;
+    padding: 10px 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+    background: #22233a;
+    box-sizing: border-box;
+    margin: 0;
+    top: 21px;
+    left: -50px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    & label {
+        position: relative;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: #7b7aae;
+    }
+    & input {
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+.list label:has(input[type="radio"]:checked) {
+    color: #d2cfde;
+}

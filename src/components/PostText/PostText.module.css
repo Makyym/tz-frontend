@@ -1,0 +1,13 @@
+.postDiv {
+    background-color: transparent;
+    padding: 20px 27px 30px;
+    max-width: 846px;
+    & p {
+        display: inline-block;
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 14px;
+        color: #d2cfde;
+        margin: 0;
+    }
+} 

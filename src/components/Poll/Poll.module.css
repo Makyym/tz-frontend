@@ -1,0 +1,93 @@
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    & li {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    & p {
+        margin: 0;
+    }
+}
+
+.li {
+    & svg {
+    width: 26px;
+    height: 26px;
+    color: #7B7AAE;
+    }
+    & p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 15px;
+        color: #7b7aae;
+    }
+}
+
+.postInput {
+    width: 180px;
+    height: 26px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    color: #d2cfde;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-left: 13px;
+    box-sizing: border-box;
+    border: 1px solid #31314f;
+    background-color: #262641;
+    border-radius: 4px;
+    text-align: start;
+}
+
+.svg svg {
+    width: 12px;
+    height: 12px;
+    margin-left: -24px;
+}
+
+.svg {
+    margin-right: 15px;
+}
+
+.postInput::placeholder {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: -0.01em;
+    color: #7b7aae;
+}
+
+.line {
+    border-radius: 4px;
+    width: 440px;
+    height: 4px;
+    background: #31314f;
+    margin-right: 22px;
+}
+
+.addVariant {
+    & svg {
+        width: 35px;
+        height: 35px;
+        color: #d2cfde;
+        margin-left: -5px;
+    }
+    & p {
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 13px;
+        letter-spacing: -0.01em;
+        color: #d2cfde;
+    }
+}
