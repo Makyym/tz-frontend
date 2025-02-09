@@ -8,7 +8,7 @@ import { FaFeatherAlt } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { TfiMoreAlt } from "react-icons/tfi";
 import PostVisibility from "../PostVisibility/PostVisibility.jsx";
-import MediaChooser from "../mediaChooser/mediaChooser.jsx";
+import MediaChooser from "../MediaChooser/MediaChooser.jsx";
 
 const PostForm = ({children, poll, media, textProp}) => {
     const [count, setCount] = useState(0);
