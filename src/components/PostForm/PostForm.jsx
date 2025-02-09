@@ -7,7 +7,7 @@ import s from './PostForm.module.css'
 import { FaFeatherAlt } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { TfiMoreAlt } from "react-icons/tfi";
-import PostVisibility from "../PostVisibility/postVisibility.jsx";
+import PostVisibility from "../PostVisibility/PostVisibility.jsx";
 import MediaChooser from "../mediaChooser/mediaChooser.jsx";
 
 const PostForm = ({children, poll, media, textProp}) => {
